@@ -21,7 +21,7 @@ public class animate : MonoBehaviour
         {
             this.GetComponent<Animator>().SetBool("gethit", true);
         }
-        if (Input.GetKeyDown(KeyCode.L))
+        if (Input.GetKeyDown(KeyCode.P))
         {
             this.GetComponent<Animator>().SetBool("gethit", false);
         }
